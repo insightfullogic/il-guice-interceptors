@@ -52,7 +52,7 @@ public class TestTimeCalls {
 
 		}
 		final MockLogger ml = new MockLogger(
-				"public void com.insightfullogic.interceptors.InterceptedMock.interceptedException() was called 1 times for a total time usage of ");
+				"public void com.insightfullogic.os.interceptors.InterceptedMock.interceptedException() was called 1 times for a total time usage of ");
 		results.logResults(ml, Level.INFO);
 		ml.checkFinished();
 	}
